@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>Zoeller Tech - Share with your remarks</title>
+    <meta name="description" content="Zobacz wszystko, co powienieneś wiedzieć o monitorach komputerowych w technikum informatycznym." />
+    <meta name="keywords" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Exo" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="jqm/jquery.mobile-1.4.5.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.min.js"></script>
+    	
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+
+  </head>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <body>
+
+<div id="container"role="main" class="ui-content ui-grid-solo">
+    <h4 id="imageEntry"class="col-lg-3 col-xs-2"></h4>
+          <!--  <div id="logo" class="col-lg-3 col-xs-2"><img src="img/logo2.jpg"></div> -->
+            <!--<div id="text1" class="col-lg-3 col-xs-2">Register your complaint</div> -->
+            <h4 id="text1"class="col-lg-4 col-xs-2">Register your complaint</h4>
+            <div id="kontakt" class="col-lg-3 col-xs-1">
+            <a href="#pageContact" class="ui-btn ui-icon-search ui-btn-icon-left" data-transition="slideup">Kontakt</a></div>
+            
+        </div>
+
+<div role="main" class="ui-content ui-grid-solo">
+            <article class="ui-block-a">
+                <form method="post" action="temp.aspx">
+                    <div class="ui-field-contain">
+                        <fieldset data-role="collapsible">
+                            <legend>Customer details</legend>
+                            <select>
+                            	<option value="" disabled selected>Who would like to make a complaint?</option>
+								  <option value="John">John</option>
+								  <option value="Amy">Amy</option>
+								  <option value="Warren">Warren</option>
+								  <option value="Manfred">Manfred</option>
+								  <option value="OthEquip">Other equipment</option>
+
+                            <option type="text" data-clear-btn="true" id="firstname" />
+							</select>
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" data-clear-btn="true" id="lastname" />
+                            <label for="email">Address e-mail:</label>
+                            <input type="email" data-clear-btn="true" id="email" />
+                        </fieldset>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </div>
+
+    <div role="main" class="ui-content ui-grid-solo">
+            <article class="ui-block-a">
+                <form method="post" action="temp.aspx">
+                    <div class="ui-field-contain">
+                        <fieldset data-role="collapsible">
+                            <legend>Failure details</legend>
+                            <select>
+                            	<option value="" disabled selected>Where problem has been noticed?</option>
+								  <option value="Chassis">Chassis</option>
+								  <option value="Body">Body</option>
+								  <option value="Tailgate">Tailgate</option>
+								  <option value="Lifter">Lifter</option>
+								  <option value="OthEquip">Other equipment</option>
+								  <option value="Transport">Transport</option>
+
+                            <option type="text" data-clear-btn="true" id="ProductFailure" />
+							</select>
+                            <select>
+                            	<option value="" disabled selected>What kind of defects has been noticed?</option>
+								  <option value="Electric">Electric</option>
+								  <option value="Mechanic">Mechanic</option>
+								  <option value="Hydraulic">Hydraulic</option>
+								  <option value="Painting">Painting</option>
+								  <option value="OtherProblem">Other..</option>
+
+                            <option type="text" data-clear-btn="true" id="FailureKind" />
+						</fieldset>
+						</select>
+                            <label for="Part1">Part1:</label>
+                            <input type="text" data-clear-btn="true" id="part" />
+                            <label for="Part2">Part2:</label>
+                            <input type="text" data-clear-btn="true" id="part" />
+                            <label for="Part3">Part3:</label>
+                            <input type="text" data-clear-btn="true" id="part" />
+                            <label for="Part4">Part4:</label>
+                            <input type="text" data-clear-btn="true" id="part" />
+                            <label for="Part5">Part5:</label>
+                            <input type="text" data-clear-btn="true" id="part" />
+                    </div>
+                </form>
+            </article>
+        </div>
+    </div>
+
+<div role="main" class="ui-content ui-grid-solo">
+            
+        </div>
+    </div>
+<div role="main" class="ui-content ui-grid-solo">
+            <article class="ui-block-a">
+                <form method="post" action="temp.aspx">
+                    <div class="ui-field-contain">
+                        <fieldset data-role="collapsible">
+                            <legend>Complaint details</legend>
+                         	<label for="Opis">Fault description:</label>
+                            <input type="text" data-clear-btn="true" id="opis" />
+                            <label for="WhatDone">How fault has been repaired?:</label>
+                            <input type="text" data-clear-btn="true" id="WhatDone" />
+                        </fieldset>
+                    </div>
+                </form>
+            </article>
+        </div>
+    </div>
+<div><input id="przycisk" type="button" submit id = "submit"/>
+</div>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+body{
+	/*Bacground pattern from subtlepatterns.com*/
+	background: url("img/stardust.png");
+	font-size: 20px;
+	font-family: 'Exo', sans-serif;}
+
+
+#container{
+	background:#ffffff;
+	height: 95px;
+
+}
+#logo{
+float: left;
+}
+#przycisk{
+
+	position: center;
+}
+#text1{
+
+	font-size: 20px;
+	float: left;
+	padding: 10px;
+	text-align: center;
+	width: 40%;
+	background-color: transparent;
+	
+
+}
+
+#kontakt{
+
+	font-size: 40px;
+	float: right;
+	width: 15%;
+	padding: 5px;
+}
+
+
+imageEntry {
+	width: 30%;
+	height: 70px;
+    background-image: url("img/logo3.jpg");
+	background-repeat: no-repeat;
+	background-size: 10px	50px;
+	padding-bottom: 5px;	
+}
+
+@media only screen and (min-width:750px) {
+    #imageEntry {
+        width: 30%;
+        height: 60px;
+        background-image: url("img/logo4.jpg");
+        background-repeat: no-repeat;
+        
+    }
+    #text1{
+
+	font-size: 30px;
+	float: left;
+	padding: 20px;
+	text-align: center;
+	width: 40%;
+	background-color: transparent;
+	
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
